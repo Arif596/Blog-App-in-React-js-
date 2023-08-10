@@ -1,0 +1,7 @@
+.post-heading{
+    flex:9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding: 20px;
+}

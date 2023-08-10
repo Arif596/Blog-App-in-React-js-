@@ -1,0 +1,50 @@
+.top {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 100
+}
+.topleft,
+.topright {
+  flex: 3;
+}
+
+.topcenter {
+  flex: 6;
+}
+.image {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.topright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.topIcon {
+  margin-right: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+  transition: transform 1.3s ease, color 0.3s ease; 
+}
+.topIcon:hover {
+  color: #ff0026;
+  transform: scale(2.2);
+}
+.toplist {
+  justify-content: center;
+  gap: 10px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 40px;
+}
+ a:hover{
+  color:goldenrod;
+}

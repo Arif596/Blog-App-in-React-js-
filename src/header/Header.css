@@ -1,0 +1,13 @@
+.header {
+  margin-top: 20px;
+  position: relative
+}
+.images {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-top: 80px;
+}
+
+
+
